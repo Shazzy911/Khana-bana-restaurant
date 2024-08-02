@@ -1,9 +1,13 @@
+import MainSlider from "./components/ui/mainslider/MainSlide";
+import Slide from "./components/ui/slide/Slide";
 
 const Home = () => {
   return (
     <div>
 
-      <h1>Dua Ali Project...</h1>
+      <MainSlider>
+        <Slide/>
+      </MainSlider>
 
     </div>
   )

@@ -1,10 +1,10 @@
-import { slide_dummy } from '@/json/slide_dummy'
+import { slide_dummy } from '@/json/slide_dummy';
 import style from "./Slide.module.scss";
 // import Button from '../button/Button';
 // import ButtonContainer from '../button container/ButtonContainer';
 
 const Slide = () => {
-
+    console.log(slide_dummy);
   return (
     <>
       {
