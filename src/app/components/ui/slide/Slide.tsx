@@ -1,36 +1,37 @@
 import { slide_dummy } from '@/json/slide_dummy';
 import style from "./Slide.module.scss";
-// import Button from '../button/Button';
-// import ButtonContainer from '../button container/ButtonContainer';
+import Button from "@/app/components/ui/button/Button";
+
 
 const Slide = () => {
-    console.log(slide_dummy);
   return (
     <>
       {
         slide_dummy.map((item) => (
-
-          <div className={style.container} key={item.id} style={{
-            background: `url(${item.image}) center center / cover no-repeat`,
-            // backgroundImage: `url(${item.image})`,
-            width: '1000px',
-            height: '500px',
-
-          }}>
-            <h1>{item.heading}</h1>
-            <p>{item.description}</p>
-            <div className={style.buttoncontainer}>
-              {/* <Button text={item.btn1} />
-              <Button text={item.btn2} /> */}
+          <div className={style.container} key={item.id}>
+            <div className={style.slide_content}>
+              <h1>{item.heading}</h1>
+              <p>{item.description}</p>
+              <div className={style.recommend}>
+                {item.dishes.map((dish, index) => (
+                  <div key={index}>
+                    <h4>{dish.dish}</h4>
+                    <h4>{dish.heading}</h4>
+                  </div>
+                ))}
+              </div>
+              <Button />
             </div>
-            {/* <ButtonContainer/> */}
+            <div  className= {style.slide_bg}style={{
+              background: `url(${item.image}) center center / cover no-repeat`,
+            }}>
+            </div>
           </div>
         ))
       }
     </>
   )
 }
-
 export default Slide;
 
 
