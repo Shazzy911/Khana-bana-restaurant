@@ -9,7 +9,7 @@ const ubuntu = Ubuntu(
   }
 );
 export const metadata: Metadata = {
-  title: "Sanjrani - Restaurant & Food Delivery Application",
+  title: "KhanaBana - Restaurant & Food Delivery Application",
   description: "The Restaurant Application is a comprehensive platform enabling users to reserve tables, order food online, and manage accounts, developed using Next js. This application aims to provide an immersive and user-friendly experience for food enthusiasts, featuring real-time updates, and efficient data handling",
 };
 
