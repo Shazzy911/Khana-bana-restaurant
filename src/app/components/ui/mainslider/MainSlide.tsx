@@ -18,7 +18,7 @@ const MainSlider: React.FC<ComponentProps> = ({ children }) => {
         centeredSlides={true}
         effect="fade"
         autoplay={{
-          delay: 3500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{

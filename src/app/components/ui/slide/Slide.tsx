@@ -1,7 +1,8 @@
 import { slide_dummy } from '@/json/slide_dummy';
 import style from "./Slide.module.scss";
 import Button from "@/app/components/ui/button/Button";
-
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Slide = () => {
   return (
@@ -10,20 +11,28 @@ const Slide = () => {
         slide_dummy.map((item) => (
           <div className={style.container} key={item.id}>
             <div className={style.slide_content}>
-              <h1>{item.heading}</h1>
+              <h1 dangerouslySetInnerHTML={{ __html: item.heading }}></h1>
               <p>{item.description}</p>
               <div className={style.recommend}>
                 {item.dishes.map((dish, index) => (
-                  <div key={index}>
-                    <h4>{dish.dish}</h4>
-                    <h4>{dish.heading}</h4>
+                  <div key={index} >
+                    <Link href={"/"} >
+                      <div className={style.recomend_img} style={{
+                        background: `url(${dish.dish}) center center / cover no-repeat`,
+                      }}>
+
+
+                      </div>
+                      <p>{dish.heading}</p>
+                    </Link>
                   </div>
                 ))}
               </div>
               <Button />
             </div>
-            <div  className= {style.slide_bg}style={{
+            <div className={style.slide_bg} style={{
               background: `url(${item.image}) center center / cover no-repeat`,
+
             }}>
             </div>
           </div>
