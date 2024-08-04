@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {  Ubuntu} from "next/font/google";
 import "./styles/global.scss";
+import TopBar from "./components/common/TopBar/TopBar";
 
 const ubuntu = Ubuntu(
   {
@@ -20,7 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={ubuntu.className}>{children}</body>
+      <body className={ubuntu.className}>
+        <div>
+          <TopBar/>
+        {children}
+        </div>
+        
+        
+        </body>
     </html>
   );
 }

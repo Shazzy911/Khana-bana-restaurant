@@ -6,3 +6,9 @@ const Button = () => {
   )
 }
 export default Button;
+
+
+// <!-- HTML !-->
+// <button class="button-40" role="button">Button 40</button>
+
+// /* CSS */
