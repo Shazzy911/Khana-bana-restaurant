@@ -12,13 +12,14 @@ const Slide = () => {
           <div className={style.container} key={item.id}>
             <div className={style.slide_content}>
               <h1 dangerouslySetInnerHTML={{ __html: item.heading }}></h1>
-              <p>{item.description}</p>
+              <p className={style.desc}>{item.description}</p>
               <div className={style.recommend}>
                 {item.dishes.map((dish, index) => (
                   <div key={index} >
                     <Link href={"/"} >
                       <div className={style.recomend_img} style={{
                         background: `url(${dish.dish}) center center / cover no-repeat`,
+                        objectFit: "cover",
                       }}>
 
 
