@@ -1,0 +1,59 @@
+@mixin display_flex($width){
+    display: flex;
+    flex-direction: column;
+    width: $width;
+}
+
+.container{
+    @include display_flex(100%);
+    height: 60rem;
+    color: #ffffff;
+    background-color: #02060C;
+    justify-content: space-evenly;
+    
+    .section{
+
+        // In this section we've 4 divs. each has it's own functionality.... 
+        display: flex;
+        justify-content: space-evenly;
+        .common{  // Common Css for all 4 divs... 
+            @include display_flex(30rem);
+            padding-left: 1rem ;
+            
+            h2{
+                margin: 1rem 0 2rem 0;
+            }
+        }
+
+        .app_info{
+            span{
+                a{
+
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                }
+            }
+        }
+        // .day_time{
+
+        // }
+        // .news_letter{
+
+        // }
+        .company_info{
+            .common_links{
+                display: flex;
+                flex-direction: column;
+                a{
+                    padding: .7rem 0;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+       
+    }
+}
