@@ -19,6 +19,7 @@ const Slide = () => {
                     <Link href={"/"} >
                       <div className={style.recomend_img} style={{
                         background: `url(${dish.dish}) center center / cover no-repeat`,
+                        
                         objectFit: "cover",
                       }}>
 
@@ -33,7 +34,7 @@ const Slide = () => {
             </div>
             <div className={style.slide_bg} style={{
               background: `url(${item.image}) center center / cover no-repeat`,
-
+              objectFit: "cover",
             }}>
             </div>
           </div>
