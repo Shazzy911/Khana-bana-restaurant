@@ -32,7 +32,7 @@ const NewsLetter = () => {
                 type="email"
                 // value={email}
                 // onChange={(e) => setEmail(e.target.value)}
-                placeholder="Your email address"
+                placeholder="Enter email address"
             />
             <button type="submit">Subscribe</button>
             {/* {success && <p>Thank you for subscribing!</p>} */}
