@@ -1,6 +1,28 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.container {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem 0;
+  input {
+    padding: 1.5rem 0 0 0.8rem;
+    text-align: center;
+    /* Remove inline and outline */
+    outline: none;
+    border: none;
+
+    /* Add some basic styling */
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: .3rem;
+    /* Remove default focus styles */
+    transition: box-shadow 0.3s;
+
+    /* Add a subtle focus effect */
+    &:focus {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+  }
 }

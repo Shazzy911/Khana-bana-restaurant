@@ -18,27 +18,34 @@
         justify-content: space-evenly;
         .common{  // Common Css for all 4 divs... 
             @include display_flex(30rem);
-            padding-left: 1rem ;
+            padding-left: 4rem ;
             
             h2{
-                margin: 1rem 0 2rem 0;
+                margin: 1.5rem 0 1.5rem 0;
+                font-size: 2.2rem;
             }
         }
 
         .app_info{
             span{
+                margin-bottom: 2rem;
                 a{
 
                     display: flex;
-                    // justify-content: center;
                     align-items: center;
                     gap: 1rem;
                 }
             }
         }
-        // .day_time{
-
-        // }
+        .day_time{
+            span{
+                display: flex;
+                padding: .8rem 0 ;
+                p{
+                    width: 12rem;
+                }
+            }
+        }
         // .news_letter{
 
         // }
@@ -55,5 +62,10 @@
             }
         }
        
+    }
+    .copy_right{
+        p{
+            text-align: center;
+        }
     }
 }

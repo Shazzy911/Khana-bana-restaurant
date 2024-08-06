@@ -13,8 +13,8 @@ const Footer = () => {
         <div className={style.container}>
             <div className={style.section}>
 
-                <div className={` ${style.app_info}  `}>
-                    <span  className={`  ${style.common} `}>
+                <div className={` ${style.app_info}  && ${style.common}  `}>
+                    <span >
                         <Link href={'/'}>
                             <Image src={Hero} width={57} height={57} alt="Image not found" />
                             <h2>Khana Bana</h2>
@@ -33,7 +33,7 @@ const Footer = () => {
 
                     {
                         day_time.map((item, index) => (
-                            <span key={index}>{item.day} {item.time}</span>
+                            <span key={index}><p>{item.day} </p>{item.time}</span>
                         ))
                     }
 
@@ -54,7 +54,6 @@ const Footer = () => {
                         <h2>Company</h2>
                         <Link href={"/about"}> About</Link>
                         <Link href={"/careers"}> Careers</Link>
-                        <Link href={"/Chefs"}> Chefs</Link>
                     </div>
                     <div className={style.common_links}>
 
@@ -72,7 +71,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div>
+            <div className={style.copy_right}>
                 <p>Copyright ©2024-2025 All rights reserved | This website is made with love <IoHeartSharp /> by Dua Ali.</p>
             </div>
 
