@@ -28,3 +28,29 @@ export const topbar_route_links: route_link_types[] = [
       route: "/contact",
     },
   ];
+
+  export const footer_route_links = [
+        {
+          title: "Company",
+          links: [
+            { "label": "About", "href": "/about" },
+            { "label": "Careers", "href": "/careers" }
+          ]
+        },
+        {
+          title: "Contact Us",
+          links: [
+            { "label": "Help & Support", "href": "/contact" },
+            { "label": "Partner with us", "href": "/partners" }
+          ]
+        },
+        {
+          title: "Legal",
+          links: [
+            { "label": "Terms & Conditions", "href": "/about" },
+            { "label": "Cookies Policy", "href": "/policy" },
+            { "label": "Privacy Policy", "href": "/policy" }
+          ]
+        }
+      ]
+    
