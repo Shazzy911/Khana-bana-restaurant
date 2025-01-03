@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import style from "./Common_Swiper.module.scss";
+import style from "./CommonSwiper.module.scss";
 import { Autoplay } from "swiper/modules";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
