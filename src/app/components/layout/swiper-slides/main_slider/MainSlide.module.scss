@@ -3,15 +3,19 @@
 
   .slide_content {
     width: 50vw;
-    padding: 13rem 0 0 6rem;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    .desc{
+    align-items: center;
+    justify-content: center;
+
+    .detail {
+      padding: 0 8rem;
+    }
+    .desc {
       padding-right: 5rem;
+      height: 7.2rem;
     }
     h1 {
-      font-size: 40px;
+      font-size: 4.5rem;
       color: #000000;
       line-height: 1.5;
       font-weight: 700;
