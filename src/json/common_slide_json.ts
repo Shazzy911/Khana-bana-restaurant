@@ -6,8 +6,8 @@ export const common_slide: common_slide_type[] = [
   {
     id: 1,
     image:
-      "https://i.pinimg.com/236x/29/0a/2c/290a2cce7d63a9a5fcfd93353e26e562.jpg",
-    title: "Lana Del Rey",
+      "https://i.pinimg.com/236x/b0/60/6a/b0606a6aedccbe23ffee28e5a270bd97.jpg",
+    title: "Lunch Rome",
     sub_title: "Say Yes to Heaven",
   },
   {
