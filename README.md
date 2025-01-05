@@ -1,47 +1,21 @@
-Restaurant Reservation &
-Online Food Ordering Application
+# Khana Bana Restaurant Reservation & Online Food Ordering Application
 
-Project
+## About Khana Bana
 
-       ##Supervisor <br>
+Restaurant Reservation & Online Food Ordering Application involves creating a comprehensive platform that allows users to reserve tables, order food online, and manage their accounts. Its purpose is to provide an immersive and user-friendly experience for food enthusiasts, casual diners, and anyone in between. The objective of this project is to develop a fully functional application utilizing Next.js with Typescript for the front-end, Express.js and Node.js for the back-end, Prisma as the ORM, and additional technologies such as Next-Auth for authentication, Stripe for payment processing, and React Query for caching.
 
-Prof. Shoaib Ali Qureshi
+## 🎯 Mission
 
-     Submitted by
-        Dua Ali
-                {AS23MTL0357}
-       Campus Name
-           Riphah International College, Multan
+Our mission is to create meaningful connections and deliver exceptional value to our customers through innovative, user-friendly solutions. We are dedicated to empowering individuals and businesses by providing tools and services that enhance their lives and drive growth.
 
-Restaurant Reservation & Online Food Ordering Application Semester Project Proposal & Report
-Project ID
-Title of Project Restaurant Reservation &
-Online Food Ordering Application
-Type of project Industrial
-Nature of project Development
-Area of specialization Backend Development
-Student Information
-Reg. # Student Name CGPA Email ID Phone #
-AS23MTL0357 Dua Ali 3.45 Duak47981@gmail.com 03090917476
+## 🌍 Vision
 
-Declaration: I have cleared all prerequisites courses For Project as per their degree requirements.
+Our vision is to become the go-to platform for food enthusiasts, casual diners, and culinary explorers by setting a benchmark for exceptional user experiences. We strive to bridge the gap between technology and dining, ensuring convenience, reliability, and satisfaction for every user interaction.
 
-Supervisor: Prof Shoaib Ali Qureshi Principal: Prof Amjad
+<!-- ## 🚀 Vision -->
 
-Duak47981@gmail.com 03090917476
+<!-- ## 🌟 Mission -->
 
-Restaurant Reservation & Online Food Ordering Application Semester Project Proposal & Report
-
-    		         Plagiarism Certificate
-
-This is to certify that, I’m Dua Ali Daughter of Muhammad Ali group leader of Restaurant Reservation App under registration no RIC/ AS23MTL0357 at Computer Science Department, Riphah International College Multan. I declare that my Restaurant Reservation App proposal is checked by my supervisor and the similarity index is **\_\_\_\_**% that is less than 20%, an acceptable limit by HEC. Report is attached here with as Appendix A.
-Date: **/**/\_\_\_\_
-Supervisor: Prof Shoaib Ali Qureshi Name of Principal: Prof Amjad
-
-Restaurant Reservation & Online Food Ordering Application Semester Project Proposal & Report
-
-1. Introduction
-   Restaurant Reservation & Online Food Ordering Application involves creating a comprehensive platform that allows users to reserve tables, order food online, and manage their accounts. Its purpose is to provide an immersive and user-friendly experience for food enthusiasts, casual diners, and anyone in between. The objective of this project is to develop a fully functional application utilizing Next.js with Typescript for the front-end, Express.js and Node.js for the back-end, Prisma as the ORM, and additional technologies such as Next-Auth for authentication, Stripe for payment processing, and React Query for caching.
 2. System Requirements
    Functional Requirements:
    • User registration and login
@@ -154,3 +128,5 @@ Restaurant Reservation & Online Food Ordering Application Semester Project Propo
     These stakeholders play crucial roles in the development, deployment, and operation of the Restaurant Reservation & Online Food Ordering Application. Their needs and interests must be carefully considered to ensure the project's success and the application's effectiveness.
 17. Conclusion
     The Restaurant Reservation & Online Food Ordering Application project aims to deliver a seamless and engaging experience for food enthusiasts. The chosen technology stack offers scalability, performance, and security. The application's potential impact lies in providing users with a platform to discover, reserve, and order food effortlessly, with additional features such as real-time order updates enhancing the user experience. Future enhancements may include AI-powered recommendations and further social features to enrich the platform.
+
+Deployement URL["https://khana-bana-restaurant.vercel.app/"] <br>
